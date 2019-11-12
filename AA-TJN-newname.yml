@@ -1,0 +1,14 @@
+
+  - name: new host name
+    hosts: 18.222.106.34
+    gather_facts: True
+    vars:
+      hostname: kittyCat
+      
+      
+    - name Get Hostname
+      hostname:
+        name: "{{hostname}}"
+        
+      
+  
