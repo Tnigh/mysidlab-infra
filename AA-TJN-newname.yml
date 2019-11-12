@@ -6,7 +6,7 @@
       hostname: kittyCat
       
       
-    - name: Get Hostname
+    - name: Set Hostname
       hostname:
         name: "{{hostname}}"
         
